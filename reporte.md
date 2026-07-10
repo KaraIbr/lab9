@@ -1,8 +1,11 @@
 # Integracion Frontend con Web3: Desarrollo de dApps
 
 **Ingenieria en Seguridad Informatica y Desarrollo de Software**
+
 **Noveno Cuatrimestre**
+
 **Materia:** Blockchain y Bases de Datos Distribuidas
+
 **Maestro:** Omar Velazquez
 
 **Elaborado por:** Karina Ibarra Morales
@@ -12,7 +15,7 @@
 ## Ancla de Sesion
 
 ```
-SESION: 20260710_134211 | NODE: v22.13.0 | NPM: 10.9.2 | USUARIO: ms-desk\milkshakes
+SESION: 20260708_134211 | NODE: v22.13.0 | NPM: 10.9.2 | USUARIO: ..\milkshakes
 ```
 
 ## Resumen
