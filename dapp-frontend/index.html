@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dApp Bóveda Segura</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Bóveda Segura — Interfaz Web3</h1>
+
+      <section id="conexion">
+        <button id="btnConectar">Conectar MetaMask</button>
+        <p id="estadoConexion">No conectado</p>
+        <p id="cuentaActual"></p>
+        <p id="redActual"></p>
+      </section>
+
+      <hr />
+
+      <section id="interaccion" style="display:none">
+        <h2>Estado del contrato</h2>
+        <p>Tu saldo en la bóveda: <span id="saldoUsuario">-</span> ETH</p>
+        <p>Balance total del contrato: <span id="balanceContrato">-</span> ETH</p>
+        <button id="btnActualizar">Actualizar saldos</button>
+
+        <h2>Depositar</h2>
+        <input id="montoDeposito" type="text" placeholder="0.01" />
+        <button id="btnDepositar">Depositar ETH</button>
+
+        <h2>Retirar</h2>
+        <input id="montoRetiro" type="text" placeholder="0.005" />
+        <button id="btnRetirar">Retirar ETH</button>
+
+        <div id="log"></div>
+      </section>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
